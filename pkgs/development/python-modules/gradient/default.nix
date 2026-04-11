@@ -18,7 +18,7 @@
   pyyaml,
   requests,
   requests-toolbelt,
-  terminaltables,
+  terminaltables3,
   websocket-client,
 }:
 
@@ -59,7 +59,7 @@ buildPythonPackage rec {
     pyyaml
     requests
     requests-toolbelt
-    terminaltables
+    terminaltables3
     websocket-client
   ];
 

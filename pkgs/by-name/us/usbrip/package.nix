@@ -27,7 +27,7 @@ python3.pkgs.buildPythonApplication (finalAttrs: {
 
   dependencies = with python3.pkgs; [
     termcolor
-    terminaltables
+    terminaltables3
     tqdm
   ];
 

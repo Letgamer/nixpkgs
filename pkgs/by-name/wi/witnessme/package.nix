@@ -46,7 +46,7 @@ python3.pkgs.buildPythonApplication {
     pyppeteer
     python-multipart
     pyyaml
-    terminaltables
+    terminaltables3
     uvicorn
     xmltodict
   ];

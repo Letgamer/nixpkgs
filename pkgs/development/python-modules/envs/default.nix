@@ -6,7 +6,7 @@
   jinja2,
   pytestCheckHook,
   poetry-core,
-  terminaltables,
+  terminaltables3,
 }:
 
 buildPythonPackage rec {
@@ -24,7 +24,7 @@ buildPythonPackage rec {
   dependencies = [
     click
     jinja2
-    terminaltables
+    terminaltables3
   ];
 
   nativeCheckInputs = [ pytestCheckHook ];

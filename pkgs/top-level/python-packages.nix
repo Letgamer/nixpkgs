@@ -18828,8 +18828,6 @@ self: super: with self; {
 
   terminado = callPackage ../development/python-modules/terminado { };
 
-  terminaltables = callPackage ../development/python-modules/terminaltables { };
-
   terminaltables3 = callPackage ../development/python-modules/terminaltables3 { };
 
   terminaltexteffects = callPackage ../development/python-modules/terminaltexteffects { };

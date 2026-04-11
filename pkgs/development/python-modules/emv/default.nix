@@ -5,7 +5,7 @@
   click,
   pyscard,
   pycountry,
-  terminaltables,
+  terminaltables3,
   pytestCheckHook,
   setuptools,
 }:
@@ -38,7 +38,7 @@ buildPythonPackage rec {
     click
     pyscard
     pycountry
-    terminaltables
+    terminaltables3
   ];
 
   nativeCheckInputs = [ pytestCheckHook ];

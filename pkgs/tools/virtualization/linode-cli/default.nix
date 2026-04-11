@@ -13,7 +13,7 @@
   requests,
   rich,
   setuptools,
-  terminaltables,
+  terminaltables3,
 }:
 
 let
@@ -61,7 +61,7 @@ buildPythonApplication rec {
     pyyaml
     requests
     setuptools
-    terminaltables
+    terminaltables3
     rich
     openapi3
     packaging

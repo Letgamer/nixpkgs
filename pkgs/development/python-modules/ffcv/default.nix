@@ -10,7 +10,7 @@
   pandas,
   pkg-config,
   pytorch-pfn-extras,
-  terminaltables,
+  terminaltables3,
   tqdm,
   pytestCheckHook,
   assertpy,
@@ -51,7 +51,7 @@ buildPythonPackage rec {
     numba
     pandas
     pytorch-pfn-extras
-    terminaltables
+    terminaltables3
     tqdm
   ];
 

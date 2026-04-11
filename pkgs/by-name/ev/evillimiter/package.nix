@@ -28,7 +28,7 @@ python3Packages.buildPythonApplication rec {
     netifaces
     setuptools
     scapy
-    terminaltables
+    terminaltables3
     tqdm
   ];
 

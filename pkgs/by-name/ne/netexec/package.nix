@@ -97,7 +97,7 @@ python.pkgs.buildPythonApplication rec {
     rich
     sqlalchemy
     termcolor
-    terminaltables
+    terminaltables3
     xmltodict
   ];
 

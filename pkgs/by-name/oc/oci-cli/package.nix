@@ -55,7 +55,7 @@ py.pkgs.buildPythonApplication rec {
     pyyaml
     retrying
     six
-    terminaltables
+    terminaltables3
   ];
 
   pythonRelaxDeps = [
