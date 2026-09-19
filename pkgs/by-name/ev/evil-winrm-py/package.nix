@@ -20,7 +20,10 @@ python3Packages.buildPythonApplication (finalAttrs: {
     hash = "sha256-xB+JLeh5MUWHd9wWLEVFLkN4QxyRaaa1p6442hsshXc=";
   };
 
-  pythonRelaxDeps = true;
+  pythonRelaxDeps = [
+    "pypsrp"
+    "prompt_toolkit"
+  ];
 
   # Removes the additional binary ewp
   postPatch = ''
